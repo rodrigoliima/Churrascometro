@@ -6,6 +6,9 @@ Projeto desenvolvito no curso ProgBR
 Saiba quanta comida, bebida e carvão voçe irá precisar para fazer o seu churrasco sem desperdício.
 
 ##
+#Desing
+
+##
 📋 Sobre o Projeto
 
 Carne - 400gr para homens, churrasco acima  de 6horas - 650gr<br>
@@ -17,11 +20,11 @@ Cerveja - 1,2 L por Pessoa + 6 horas - 2 L<br>
 Refrigerante/suco - 1,5 L por pessoa, churrasco acima de 6 horas 2 L<br>
 
 ##
-💻 Tecnologias utilizadas:<br>
+💻 Tecnologias utilizadas<br>
 HTML<br>
 CSS<br>
 JavaScript<br>
 
 ##
 📕 Licença<br>
-Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt" LICENSE></a> para mais detalhes.
