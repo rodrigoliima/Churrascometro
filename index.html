@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="icon" type="imagem/png" href="./assets/beer.png"/>
+    <title>Churrascometro</title>
+</head>
+<body>
+    <div id="main"><br>                
+        <div id="container">
+            <h1>Churrascômetro</h1>            
+            <p>Nº de Convidados</p>
+            <input id="homens" name="homens" type="number" placeholder="Homens">
+            <input id="mulheres" name="mulheres" type="number" placeholder="Mulheres">
+            <input id="criancas" name="criancas" type="number" placeholder="Crianças"><br>
+            <p>Bebidas</p>
+            <p>Insira o Nº de pessoas que consomem cerveja ou refrigerante/suco </p>
+            <input id="cerveja" name="cerveja" type="number" placeholder="Cerveja">
+            <input id="refrigerante" name="refrigerante" type="number" placeholder="Refrigerante/suco">
+            <p>Tempo(Hr)</p>
+            <input id="duracao" name="duracao" type="number" placeholder="Duração do Churrasco"><br>
+            <button onclick = "limpar(); calcular()">Calcular </button>            
+        </div>
+        <div id="img">
+            <img src="./assets/Barbecue-bro.png" height="500px">
+        </div>
+        <div id="resultado">
+            <h1>Saiba quanta comida<br> bebida<br>e carvão<br>voçe irá<br>precisar<br>para<br>fazer o <br>seu<br> churrasco<br>sem<br> desperdício.</h1>       
+        </div>        
+    <script src="./script.js"></script>        
+    </div>  
+    <footer>
+        <div class="boxflex">
+            <div class="digitacao">
+                <p>Feito por @Rodrigo Lima</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

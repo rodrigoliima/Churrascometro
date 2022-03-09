@@ -1,0 +1,116 @@
+body{
+    background: rgb(207, 14, 0);
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+#main{
+    display: flex;
+    padding-top: 50px;
+}
+
+#container{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(255,255,255);
+    border-radius: 10px;
+    width:300px;
+    height: 540px;
+    text-align: center; 
+    margin: auto;
+}
+
+input{
+    height: 25px;
+    margin: 3px;
+    width: 200px;
+    border-radius: 5px;
+    background: rgb(207, 14, 0);    
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: white;
+    font-size: large;
+}
+
+button{
+    margin: 15px;
+    background-color: rgb(207, 14, 0);
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+#resultado{
+    background: rgb(255,255,255);
+    border: 1px solid rgb(255,255,255);
+    border-radius: 10px;
+    width:300px;
+    height: 540px;
+    text-align: left;  
+    margin: auto;
+}
+
+#img{
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+.boxflex {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.digitacao {
+    width: 200px;
+    animation: typing 2s steps(40), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    color: white;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+@media screen and ( max-width: 420px) {
+
+    body{
+        background: rgb(207, 14, 0);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #img{
+        display: none;
+        width: 420px;
+    }
+
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #resultado{
+        margin-top: 20px;    
+    }
+
+}
