@@ -6,7 +6,7 @@ Projeto desenvolvito no curso ProgBR
 Saiba quanta comida, bebida e carvão voçe irá precisar para fazer o seu churrasco sem desperdício.
 
 ##
-#Desing
+<h1>Desing</h1>
 
 ##
 📋 Sobre o Projeto
@@ -27,4 +27,4 @@ JavaScript<br>
 
 ##
 📕 Licença<br>
-Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt" LICENSE></a> para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt"> LICENSE</a> para mais detalhes.
