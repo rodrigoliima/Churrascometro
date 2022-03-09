@@ -16,6 +16,8 @@ body{
     height: 540px;
     text-align: center; 
     margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 input{
@@ -56,6 +58,7 @@ button{
     height: 540px;
     text-align: left;  
     margin: auto;
+    padding-left: 10px;
 }
 
 #img{
