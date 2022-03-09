@@ -7,11 +7,11 @@ Saiba quanta comida, bebida e carvão voçe irá precisar para fazer o seu churr
 
 ##
 <h1>Desing</h1>
-<img src="desing/1.jpg">
-<img src="desing/2.jpg">
-<img src="desing/3.jpg">
-<img src="desing/4.jpg">
-<img src="desing/5.jpg">
+<img src="desing/1.png">
+<img src="desing/2.png">
+<img src="desing/3.png">
+<img src="desing/4.png">
+<img src="desing/5.png">
 
 
 ##
